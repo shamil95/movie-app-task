@@ -1,5 +1,5 @@
 {
-  "name": "task-movie-app",
+  "name": "movie-app-task",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -63,7 +63,7 @@
     "productName": "React Movie Electron App",
     "files": [
       "build/**/*",
-      "electron/main.ts",
+      "electron/main.js",
       "package.json"
     ],
     "extends": null,

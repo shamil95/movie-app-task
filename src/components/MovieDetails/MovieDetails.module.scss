@@ -1,0 +1,57 @@
+.container {
+  background-color: #212121;
+  max-width: 80%;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.image {
+  object-fit: cover;
+  height: 65rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  @extend .center;
+  margin-bottom: 2rem;
+}
+
+.rank {
+  @extend .center
+}
+
+.star {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 5px;
+  color: #F6C700;
+}
+
+.section {
+  margin: 1rem 0;
+}
+
+
+.divider {
+  background-color: #ddd;
+  min-height: 1px;
+  width: 100%;
+}
